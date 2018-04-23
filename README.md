@@ -17,3 +17,8 @@ See more in [datasets](datasets/).
 ## Helpers
 
 1. [How to import and export databases](examples/import.md)
+
+## Topics
+
+### Aggregation
+1. [$group](examples/group.md)
