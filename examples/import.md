@@ -4,10 +4,10 @@ To test all examples, first you need to import a database to your local environm
 
 ## Importing from a dump directory
 
-Go to [datasets](../datasets) directory and choose a database. In this example I will be using **movies_dump**:
+Go to [datasets](../datasets) directory and choose a database. In this example I will be using **cinema_dump**:
 
 ```bash
-$ mongorestore movies_dump
+$ mongorestore cinema_dump
 ```
 
 Extremely simple, right? Be sure that MongoDB process is running and you are using this command inside [datasets](../datasets) directory.
@@ -17,6 +17,6 @@ Extremely simple, right? Be sure that MongoDB process is running and you are usi
 Like the example above, export your MongoDB data is pretty simple too. Just use:
 
 ```bash
-$ mongodump -d my_database_dump
+$ mongodump -d your_database -o cinema_dump
 ```
-... where **my_database_dump** is the name you want for your dump directory.
+... where **your_database** is the database name and **my_database_dump** is the name you want for your dump directory.
